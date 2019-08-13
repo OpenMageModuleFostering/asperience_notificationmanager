@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @category   Asperience
+ * @package    Asperience_Notificationmanager
+ * @license    http://www.asperience.fr
+ */
+ --> 
+<config>
+    <modules>
+        <Asperience_Notificationmanager>
+            <version>0.1.0</version> 
+        </Asperience_Notificationmanager> 
+    </modules>
+    <global>
+        <helpers>
+            <asperience_notificationmanager>
+                <class>Asperience_Notificationmanager_Helper</class>
+            </asperience_notificationmanager>
+        </helpers>
+        <models>
+            <asperience_notificationmanager>
+                <class>Asperience_Notificationmanager_Model</class>
+            </asperience_notificationmanager>
+        </models>
+        <events>
+            <admin_user_authenticate_after>
+                <observers>
+                    <asperience_notificationmanager_observer>
+                        <type>singleton</type>
+                        <class>Asperience_Notificationmanager_Model_Observer</class>
+                        <method>checkNotifications</method>
+                    </asperience_notificationmanager_observer>
+                </observers>
+            </admin_user_authenticate_after>
+        </events>
+        <resources>
+            <asperience_notificationmanager_setup>
+                <setup>
+                    <module>Asperience_Notificationmanager</module>
+                    <class>Asperience_Notificationmanager_Model_Resource_Setup</class>
+                </setup>
+            </asperience_notificationmanager_setup>
+        </resources>
+    </global>
+</config>
