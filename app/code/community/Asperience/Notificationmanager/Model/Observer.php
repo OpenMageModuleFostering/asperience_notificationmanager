@@ -8,9 +8,9 @@
 
 class Asperience_Notificationmanager_Model_Observer {
 
-    public function checkNotifications($user) {
+    public function checkNotifications($user) 
+    {
         $model = new Asperience_Notificationmanager_Model_FeedReader();
         $model->checkUpdate();
     }
-
 }

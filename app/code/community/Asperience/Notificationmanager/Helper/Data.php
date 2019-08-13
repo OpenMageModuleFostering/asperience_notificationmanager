@@ -9,7 +9,8 @@
 class Asperience_Notificationmanager_Helper_Data extends Mage_Core_Helper_Data
 {
 
-	public function createAdminNotification($title, $desc, $url, $severity=Mage_AdminNotification_Model_Inbox::SEVERITY_NOTICE) {
+	public function createAdminNotification($title, $desc, $url, $severity=Mage_AdminNotification_Model_Inbox::SEVERITY_NOTICE)
+	{
 		$message = Mage::getModel ( 'adminnotification/inbox' )
 						->setDateAdded(Mage::getModel('core/date')->gmtDate())
 						->setTitle($title)

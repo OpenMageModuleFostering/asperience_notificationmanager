@@ -1,18 +1,21 @@
 <?xml version="1.0"?>
 <package>
     <name>Asperience_Notificationmanager</name>
-    <version>0.1.0</version>
+    <version>0.1.2</version>
     <stability>stable</stability>
     <license uri="http://www.opensource.org/licenses/osl-3.0.php">Open Software License (OSL 3.0)</license>
     <channel>community</channel>
     <extends/>
-    <summary>This module gives possibility to manage the messages in the backend.</summary>
-    <description>This module gives possibility to manage the messages in the backend.</description>
-    <notes>If you have ideas for improvements or find bugs, please send them to Jean-S&#xE9;bastien Hederer  at www.asperience.fr, with ASPerience  AddressComplete  as part of the subject line.</notes>
-    <authors><author><name>Jean-S&#xE9;bastien Hederer</name><user>auto-converted</user><email>hedererjs@asperience.fr</email></author><author><name>J&#xE9;r&#xF4;me Boyen</name><user>auto-converted</user><email>boyenj@asperience.fr</email></author></authors>
-    <date>2014-11-25</date>
-    <time>16:27:05</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Asperience_Notificationmanager.xml" hash="88a3edd6e3361b4273e930378ca5b529"/></dir></target><target name="magecommunity"><dir name="Asperience"><dir name="Notificationmanager"><dir name="Helper"><file name="Data.php" hash="d48c424b0529ae25fe0fa67c1efe3481"/></dir><dir name="Model"><file name="FeedReader.php" hash="de1748a5595a1f48f6c6e1d8a5ad5567"/><file name="Observer.php" hash="215be764370a1ccf07ad9e7007d44ba9"/><dir name="Resource"><file name="Setup.php" hash="a402f6177549166049742b250c5f99a5"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="872d07598cc392561054a28344de150c"/><file name="config.xml" hash="04ec2de4ee95972aadf1ee226e48ec79"/></dir></dir></dir></target></contents>
+    <summary>This module notifies admin users from ASPerience modules news</summary>
+    <description>This module notifies admin users from ASPerience modules news: general news and installation/update news&#xD;
+&#xD;
+This module is developed by ASPerience,  french company. &#xD;
+&lt;a target="_blank" url="http://www.asperience.fr"&gt;http://www.asperience.fr&lt;/a&gt;</description>
+    <notes>If you have ideas for improvements or find bugs, please send them to Jean-S&#xE9;bastien Hederer at contact@asperience.fr, with ASPerience_AddressComplete  as part of the subject line.</notes>
+    <authors><author><name>Jean-S&#xE9;bastien Hederer</name><user>hedererjs</user><email>hedererjs@asperience.fr</email></author></authors>
+    <date>2014-12-04</date>
+    <time>19:56:01</time>
+    <contents><target name="magecommunity"><dir name="Asperience"><dir name="Notificationmanager"><dir name="Helper"><file name="Data.php" hash="6133cd97cf59e92ce151f25e33cd30be"/></dir><dir name="Model"><file name="FeedReader.php" hash="de1748a5595a1f48f6c6e1d8a5ad5567"/><file name="Observer.php" hash="fbc77fc81c93148ce1425bd45d924640"/><dir name="Resource"><file name="Setup.php" hash="a402f6177549166049742b250c5f99a5"/></dir></dir><dir name="etc"><file name="config.xml" hash="0227882a7fdeb51d9347fdcc510b0bc6"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Asperience_Notificationmanager.xml" hash="88a3edd6e3361b4273e930378ca5b529"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

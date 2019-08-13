@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "Open-Software-License-(OSL-3.0)",
     "homepage": "",
-    "description": "This module gives possibility to manage the messages in the backend.",
+    "description": "This module notifies admin users from ASPerience modules news",
     "authors": [
     {
         "name": "Jean-S\u00e9bastien Hederer",

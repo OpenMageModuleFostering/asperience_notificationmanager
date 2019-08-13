@@ -9,7 +9,7 @@
 <config>
     <modules>
         <Asperience_Notificationmanager>
-            <version>0.1.0</version> 
+            <version>0.1.2</version> 
         </Asperience_Notificationmanager> 
     </modules>
     <global>
