@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Asperience_Notificationmanager",
+    "name": "OpenMageModuleFostering\/Asperience_Notificationmanager",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL-3.0)",
     "homepage": "",
     "description": "This module notifies admin users from ASPerience modules news",
     "authors": [
-    {
-        "name": "Jean-S\u00e9bastien Hederer",
-        "email": "hedererjs@asperience.fr"
-    }
-],
+        {
+            "name": "Jean-S\u00e9bastien Hederer",
+            "email": "hedererjs@asperience.fr"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
